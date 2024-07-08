@@ -1,12 +1,12 @@
 function saveData() {
-    const name = document.getElementById('name').value;
+    const nama = document.getElementById('nama').value;
     const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
+    const pesan = document.getElementById('pesan').value;
 
     const data = {
-        name: name,
+        nama: nama,
         email: email,
-        message: message
+        pesan: pesan
     };
 
     const jsonData = JSON.stringify(data);
